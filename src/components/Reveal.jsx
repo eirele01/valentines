@@ -8,7 +8,10 @@ const Reveal = () => {
     const [revealed, setRevealed] = useState(false);
 
     return (
-        <section className="h-screen w-full relative bg-[var(--bg-color)] overflow-hidden">
+        <section
+            className="h-screen w-full relative bg-[#1a202c] overflow-hidden"
+            style={{ backgroundColor: '#1a202c', height: '100vh', width: '100vw', position: 'relative' }}
+        >
             <AnimatePresence>
                 {!revealed && (
                     <motion.div
@@ -33,14 +36,15 @@ const Reveal = () => {
             <div className="absolute inset-0 z-10">
                 <Canvas camera={{ position: [0, 0, 4], fov: 50 }}>
                     <Suspense fallback={null}>
-                        <ambientLight intensity={0.5} />
-                        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                        <pointLight position={[-10, -10, -10]} />
+                        <ambientLight intensity={0.2} />
+                        <spotLight position={[5, 10, 5]} intensity={1.5} angle={0.5} penumbra={1} castShadow />
+                        <spotLight position={[-5, 5, -5]} intensity={5} color="#4c1d95" angle={0.5} penumbra={0.5} />
+                        <pointLight position={[0, -2, 2]} intensity={0.5} color="#bfdbfe" />
 
                         <Flower />
 
-                        <Environment preset="sunset" />
-                        <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.5} />
+                        <Environment preset="city" />
+                        <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.8} minPolarAngle={Math.PI / 3} maxPolarAngle={Math.PI / 2} />
                         <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
                     </Suspense>
                 </Canvas>
