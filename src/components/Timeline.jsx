@@ -21,7 +21,7 @@ const milestones = [
         id: 2,
         title: "First Date",
         date: "August, 2013",
-        description: "Invited to party, nervous laughter, and a connection that felt like home.",
+        description: "Invited to a party, nervous laughter, and a connection that felt like home.",
         image: firstDateImg,
     },
     {
