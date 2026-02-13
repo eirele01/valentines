@@ -66,7 +66,7 @@ const BlueRose = () => {
     });
 
     return (
-        <group ref={roseRef} scale={0.01} position={[0, -0.5, 0]}>
+        <group ref={roseRef} scale={0.01} position={[0, 0.2, 0]}>
             {model && <primitive object={model} />}
 
             {/* Lighting setup */}
