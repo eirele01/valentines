@@ -44,7 +44,7 @@ const Reveal = () => {
                         <Flower />
 
                         <Environment preset="city" />
-                        <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.8} minPolarAngle={Math.PI / 3} maxPolarAngle={Math.PI / 2} />
+                        <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.1} minPolarAngle={Math.PI / 3} maxPolarAngle={Math.PI / 2} />
                         <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={1} />
                     </Suspense>
                 </Canvas>
