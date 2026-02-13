@@ -46,8 +46,8 @@ const Hero = () => {
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
       >
-        Scroll Down
       </motion.div>
+        {/* Scroll Down */}
     </section>
   );
 };
