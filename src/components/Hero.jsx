@@ -27,7 +27,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl font-light italic mb-12 opacity-90 text-[#4A5568]">
-            Every moment with you is a breath of fresh air.
+            Every moment with you is a melody of peace wrapped in devotion.
           </p>
 
           <motion.button
