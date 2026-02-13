@@ -57,7 +57,7 @@ const Reveal = () => {
                 className="absolute bottom-10 left-0 right-0 z-30 text-center pointer-events-none"
             >
                 <div className="bg-white/80 backdrop-blur-md p-6 max-w-lg mx-auto rounded-xl shadow-2xl border border-[var(--accent-gold)]">
-                    <h2 className="text-3xl text-[var(--accent-rose)] font-bold mb-2">My Blue Flower</h2>
+                    <h2 className="text-3xl text-[var(--accent-rose)] font-bold mb-2">My Azure Blossom</h2>
                     <p className="text-[var(--text-color)] font-serif">
                         Just like this flower, my love for you blooms forever.
                     </p>
