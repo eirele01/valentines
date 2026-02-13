@@ -5,28 +5,28 @@ const milestones = [
     {
         id: 1,
         title: "The Beginning",
-        date: "February 14, 2024",
+        date: "January, 2013",
         description: "Where it all started. A simple hello that changed everything.",
         image: "https://images.unsplash.com/photo-1522673607200-1645062cd95c?q=80&w=2660&auto=format&fit=crop"
     },
     {
         id: 2,
         title: "First Date",
-        date: "March 1, 2024",
-        description: "Coffee, nervous laughter, and a connection that felt like home.",
+        date: "August, 2013",
+        description: "Invited to party, nervous laughter, and a connection that felt like home.",
         image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=2574&auto=format&fit=crop"
     },
     {
         id: 3,
         title: "First Adventure",
-        date: "June 15, 2024",
+        date: "January, 2018",
         description: "Exploring new places, hand in hand. The world is better with you.",
         image: "https://images.unsplash.com/photo-1530103862676-de3c9a59af57?q=80&w=2670&auto=format&fit=crop"
     },
     {
         id: 4,
         title: "Today",
-        date: "February 14, 2026",
+        date: "February, 2026",
         description: "Celebrating us, and all the beautiful moments yet to come.",
         image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=2670&auto=format&fit=crop"
     }
