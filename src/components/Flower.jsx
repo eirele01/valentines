@@ -61,7 +61,7 @@ const BlueRose = () => {
     // Auto-rotate animation
     useFrame((state) => {
         if (roseRef.current) {
-            roseRef.current.rotation.y += 0.005;
+            roseRef.current.rotation.y += 0.002;
         }
     });
 
